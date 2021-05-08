@@ -59,9 +59,9 @@
         <!--<h1 class="responsive-lg mt-2 text-center" style="color: black;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">IMPETUS 21.0</h1>-->
         <h1 class="responsive-lg font-wight-bold text-center mb-0 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">IMPETUS 21.0</h1>
-        <p class="responsive-tx font-wight-bold text-center mb-5" style="color:white;">Retro Rewind: The Past That Never Was</p>
-        <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
-        <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See what's happening</button>
+        <p class="responsive-tx font-wight-bold text-center mb-4 mt-0" style="color:white;">Retro Rewind: The Past That Never Was</p>
+        <button type="button" class="btn btn-light res-pad res-mar rounded-pill mt-5" style="background-color: white;">Register</button>
+        <button type="button" class="btn btn-light res-pad res-mar rounded-pill mt-5" style="background-color: white;">See what's happening</button>
         <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
       </div>
     </div>
@@ -79,12 +79,23 @@
   <h1 class="responsive-md text-center mt-4" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
 
+<div class="row m-4">
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+  </div>
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT ONE</h1>
+    <p>Random Text</p>
+  </div>
+</div>
+
   <div class="row m-4">
     <div class="col-12 col-sm-6 res-pad-flag">
       <img src="test.jpg" alt="test" class="res-img">
     </div>
     <div class="col-12 col-sm-6 res-pad-flag">
-      <img src="test.jpg" alt="test" class="res-img">
+      <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT TWO</h1>
+      <p>Random Text</p>
     </div>
   </div>
 
@@ -93,7 +104,8 @@
       <img src="test.jpg" alt="test" class="res-img">
     </div>
     <div class="col-12 col-sm-6 res-pad-flag">
-      <img src="test.jpg" alt="test" class="res-img">
+      <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT THREE</h1>
+      <p>Random Text</p>
     </div>
   </div>
 
@@ -102,9 +114,30 @@
       <img src="test.jpg" alt="test" class="res-img">
     </div>
     <div class="col-12 col-sm-6 res-pad-flag">
-      <img src="test.jpg" alt="test" class="res-img">
+      <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT FOUR</h1>
+      <p>Random Text</p>
     </div>
   </div>
+  
+    <div class="row m-4">
+      <div class="col-12 col-sm-6 res-pad-flag">
+        <img src="test.jpg" alt="test" class="res-img">
+      </div>
+      <div class="col-12 col-sm-6 res-pad-flag">
+        <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT FIVE</h1>
+        <p>Random Text</p>
+      </div>
+    </div>
+  
+    <div class="row m-4">
+      <div class="col-12 col-sm-6 res-pad-flag">
+        <img src="test.jpg" alt="test" class="res-img">
+      </div>
+      <div class="col-12 col-sm-6 res-pad-flag">
+        <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT SIX</h1>
+        <p>Random Text</p>
+      </div>
+    </div>
 
 </div>
 
