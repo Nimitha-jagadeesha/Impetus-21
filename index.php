@@ -59,7 +59,7 @@
         <!--<h1 class="responsive-lg mt-2 text-center" style="color: black;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">IMPETUS 21.0</h1>-->
         <h1 class="responsive-lg font-wight-bold text-center mb-0 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">IMPETUS 21.0</h1>
-        <p class="responsive-tx font-wight-bold text-center mb-4 mt-0" style="color:white;">Retro Rewind: The Past That Never Was</p>
+        <p class="responsive-tx font-wight-bold text-center mb-5" style="color:white;">Retro Rewind: The Past That Never Was</p>
         <button type="button" class="btn btn-light res-pad res-mar rounded-pill mt-5" style="background-color: white;">Register</button>
         <button type="button" class="btn btn-light res-pad res-mar rounded-pill mt-5" style="background-color: white;">See what's happening</button>
         <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
@@ -147,11 +147,11 @@ var x = setInterval(function() {
   <style>
     /*Media Queries*/
 	@media (min-width:320px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:24px;} .responsive-lg{font-size:36px;} .responsive-tx{font-size:16px;} .res-pad{padding:10px;} .res-pad-flag{padding:8px;} .res-mar{margin:8px;} /* smartphones, iPhone, portrait 480x320 phones */ }
-	@media (min-width:481px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;} .responsive-lg{font-size:88px;} .responsive-tx{font-size:36px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
- 	@media (min-width:641px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;} .responsive-lg{font-size:88px;}  .responsive-tx{font-size:36px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
-	@media (min-width:961px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:36px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* tablet, landscape iPad, lo-res laptops ands desktops */ }
-	@media (min-width:1025px) { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:36px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* big landscape tablets, laptops, and desktops */ }
-	@media (min-width:1281px) { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:36px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* hi-res laptops and desktops */ }
+	@media (min-width:481px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;} .responsive-lg{font-size:88px;} .responsive-tx{font-size:32px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+ 	@media (min-width:641px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;} .responsive-lg{font-size:88px;}  .responsive-tx{font-size:32px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+	@media (min-width:961px)  { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:32px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+	@media (min-width:1025px) { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:32px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* big landscape tablets, laptops, and desktops */ }
+	@media (min-width:1281px) { .res-img{width:100%;height:100%;} .responsive-md{font-size:64px;}  .responsive-lg{font-size:88px;} .responsive-tx{font-size:32px;} .res-pad{padding:20px;} .res-pad-flag{padding:24px;} .res-mar{margin:16px;} /* hi-res laptops and desktops */ }
 	
 </style>
     
