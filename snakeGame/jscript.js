@@ -6,7 +6,7 @@ let totalFoodAte = 0;
 let totalDistanceTravelled = 0;
 
 /// THE GAME BOARD:
-const gameContainer = document.getElementById("gameContainer");
+const gameContainer = document.getElementById("gameC");
 
 const createGameBoardPixels = () => {
   // Populate the [#gameContainer] div with small div's representing game pixels
