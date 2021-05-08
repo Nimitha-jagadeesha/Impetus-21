@@ -6,10 +6,10 @@
 	width and height of .gameBoardPixel should 1/40 of the width and height of #gameContainer,
 	because it is used in calculation in the jscript.js file
 	*/
-  width: 20vw;
-  height: 20vw;
-  margin: 2vw auto;
-  background-color: #0c1021;
+  width: 32vw;
+  height: 32vw;
+  margin: auto;
+  background-color: #000000;
   /*border: solid 10px slategrey;
   border-radius: 10px;*/
 
@@ -24,17 +24,19 @@
 	width and height of .gameBoardPixel should 1/40 of the width and height of #gameContainer,
 	because it is used in calculation in the jscript.js file
 	*/
-  width: 0.5vw;
-  height: 0.5vw;
-  border-radius: 10px;
+  width: 0.8vw;
+  height: 0.8vw;
+  /*width: 0.6vw;
+  height: 0.6vw;*/
+  border-radius: 0px;
   float: left;
 }
 /* GAME BOARD STYLES END*/
 
 /* SNAKE STYLES */
 .snakeBodyPixel {
-  background-color: #fd6401;
-  box-shadow: 0 0 5px #fd6401;
+  background-color: #ffffff;
+  box-shadow: 0 0 0px #000000;
 }
 /* SNAKE STYLES END*/
 
@@ -48,14 +50,14 @@
 #scoreC {
   width: 40vw;
   display: flex;
-  margin: auto;
+  margin: 8px auto;
   justify-content: space-around;
 }
 
 .scoreBoard {
-  border-radius: 10px;
-  border: solid 5px slategrey;
-  color: dimgray;
+  /*border-radius: 10px;
+  border: solid 5px slategrey;*/
+  color: white;
   background-color: #0c1021;
   display: inline-block;
   padding: 1vw;
