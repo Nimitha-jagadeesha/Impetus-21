@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- Link our styles from main.css -->
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="snakeGame/main.css" />
 </head>
 
 
@@ -59,5 +59,5 @@
   </body>
 
   <!-- #Load our jscript.js containing the game logic -->
-  <script src="jscript.js"></script>
+  <script src="snakeGame/jscript.js"></script>
 </html>
