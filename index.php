@@ -65,10 +65,9 @@
       </div>
     </div>
   </div>
-  <br><br>
-  <div class="ml-4 mr-4 mb-2">
+  <div class="ml-4 mr-4 mb-2 mt-2">
     <!--<h1 class="responsive-md font-wight-bold text-center" style="color:white;">TECHNICAL EXTRAVAGANZA</h1>-->
-    <h1 class="responsive-md text-center" style="color: black;
+    <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">TECHNICAL EXTRAVAGANZA</h1>
   </div>
   <div class="pb-5"></div>
