@@ -58,8 +58,8 @@
       <div class="col-12 col-sm-6 text-center">
         <!--<h1 class="responsive-lg mt-2 text-center" style="color: black;
         text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">IMPETUS 21.0</h1>-->
-        <h1 class="responsive-lg font-wight-bold text-center mb-0 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">IMPETUS 21.0</h1>
-        <p class="responsive-tx font-wight-bold text-center mb-5" style="color:white;">Retro Rewind: The Past That Never Was</p>
+        <h1 class="responsive-lg font-wight-bold text-center mb-0" style="color:white;">IMPETUS 21.0</h1>
+        <p class="responsive-tx font-wight-bold text-center mb-5 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">Retro Rewind: The Past That Never Was</p>
         <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
         <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See what's happening</button>
         <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
