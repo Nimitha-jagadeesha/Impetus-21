@@ -63,9 +63,8 @@
                </div>
 
                <div class="col-12 col-sm-6 text-center">
-                  <!--<h1 class="responsive-lg mt-2 text-center" style="color: black;
-                     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">IMPETUS 21.0</h1>-->
-                  <h1 class="responsive-lg font-wight-bold text-center mb-0" style="color:white;">IMPETUS 21.0</h1>
+                  <h1 class="responsive-lg mt-2 text-center" style="color: black;
+                     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;">IMPETUS 21.0</h1>
                   <p class="responsive-tx font-wight-bold text-center mb-5 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">Retro Rewind: The Past That Never Was</p>
                   <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
                   <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See what's happening</button>
@@ -81,9 +80,11 @@
          </div>
          <div class="pb-5"></div>
       </div>
+
+      <!--Flagship events-->
       <div id="part2" class="p-2" style="background-color: #f7d298;">
-         <h1 class="responsive-md text-center mt-4" style="color: black;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
+        <h1 class="responsive-md text-center mt-2" style="color: black;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
                <img src="test.jpg" alt="test" class="img-fluid">
@@ -139,7 +140,9 @@
             </div>
          </div>
       </div>
-      <div id="part2" class="p-2" style="background-color:#ffefd5;">
+
+      <!--Events-->
+      <div id="part3" class="p-2" style="background-color:#ffefd5;">
          <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">EVENTS</h1>
          <div class="row m-4">
@@ -179,6 +182,38 @@
             </div>
          </div>
       </div>
+
+      <!--Sponsors-->
+      <div id="part-4" class="res-pad" style="background-color:ivory">
+        <h1 class="responsive-md text-center mt-2" style="color: #000;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
+        <div class="row">
+          <div class="col-6 col-sm-3 p-2">
+            <img src="test.jpg" alt="test" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-3 p-2">
+            <img src="test.jpg" alt="test" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-3 p-2">
+            <img src="test.jpg" alt="test" class="img-fluid">
+          </div>
+          <div class="col-6 col-sm-3 p-2">
+            <img src="test.jpg" alt="test" class="img-fluid">
+          </div>
+        </div>
+
+        <br><br>
+      </div>
+
+
+
+
+
+
+
+
+
+
       </div>
       <!-- Display the countdown timer in an element -->
       <script>
