@@ -86,7 +86,7 @@
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT ONE</h1>
@@ -95,7 +95,7 @@
          </div>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT TWO</h1>
@@ -104,7 +104,7 @@
          </div>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT THREE</h1>
@@ -113,7 +113,7 @@
          </div>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT FOUR</h1>
@@ -122,7 +122,7 @@
          </div>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT FIVE</h1>
@@ -131,7 +131,7 @@
          </div>
          <div class="row m-4">
             <div class="col-12 col-sm-6 res-pad-flag">
-               <img src="test.jpg" alt="test" class="res-img">
+               <img src="test.jpg" alt="test" class="img-fluid">
             </div>
             <div class="col-12 col-sm-6 res-pad-flag">
                <h1 class="responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT SIX</h1>
