@@ -1,4 +1,5 @@
 <?php ?>
+
 <!--HTML boiler plate-->
 <!DOCTYPE html>
 <html lang="en">
@@ -26,7 +27,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="snakeGame/main.css">
 </head>
 
 <body style="font-family:'Poppins', sans-serif;">
@@ -51,9 +54,33 @@
   <div class="ml-5 mr-5 mt-2 mb-2">
     <div class="row">
       <div class="col-12 col-sm-6 text-center">
-      <!--<iframe frameBorder="0" class="res-img" src="https://www.youtube.com/embed/1Eg2gHnAGw8?mute=1&controls=0" title="YouTube video player">
-      </iframe>-->
-      <img class="res-img" src="test1.gif" alt="test1">
+        <!--<img class="res-img" src="test1.gif" alt="test1">-->
+
+
+
+
+        <div id="gameC"></div>
+
+    <!-- #scoreContainer contains the scores  -->
+    <div id="scoreC">
+      <div class="scoreBoard">Food: <span id="pointsEarned">0</span></div>
+      <!--<div class="scoreBoard">Blocks: <span id="blocksTravelled">0</span></div>-->
+    </div>
+
+    <!-- #onScreenControllers contains the navigation buttons for mobile screens -->
+    <div id="onScreenControllers">
+      <button id="leftButton"><i class="fa fa-chevron-left"></i></button>
+      <div>
+        <button id="upButton"><i class="fa fa-chevron-up"></i></button>
+        <button id="downButton"><i class="fa fa-chevron-down"></i></button>
+      </div>
+      <button id="rightButton"><i class="fa fa-chevron-right"></i></button>
+    </div>
+
+
+
+
+
       </div>
       <div class="col-12 col-sm-6 text-center">
         <!--<h1 class="responsive-lg mt-2 text-center" style="color: black;
@@ -73,6 +100,8 @@
   </div>
   <div class="pb-5"></div>
 </div>
+
+
 
 <div id="part2" class="p-2">
 
@@ -142,6 +171,57 @@
 </div>
 
 
+<div id="part2" class="p-2" style="background-color:black;">
+
+  <h1 class="responsive-md text-center mt-2" style="color: #fff;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">EVENTS</h1>
+
+<div class="row m-4">
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT ONE</h1>
+    <p>Random Text</p>
+  </div>
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT TWO</h1>
+    <p>Random Text</p>
+  </div>
+</div>
+
+<div class="row m-4">
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT THREE</h1>
+    <p>Random Text</p>
+  </div>
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT FOUR</h1>
+    <p>Random Text</p>
+  </div>
+</div>
+
+<div class="row m-4">
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT FIVE</h1>
+    <p>Random Text</p>
+  </div>
+  <div class="col-12 col-sm-6 res-pad-flag">
+    <img src="test.jpg" alt="test" class="res-img">
+    <h1 class="responsive-md font-wight-bold" style="color:whitesmoke;">EVENT SIX</h1>
+    <p>Random Text</p>
+  </div>
+</div>
+
+  
+
+    </div>
+
+</div>
+
+
 <!-- Display the countdown timer in an element -->
 
 
@@ -176,6 +256,7 @@ var x = setInterval(function() {
 }, 1000);
 </script>  
 
+<script src="snakeGame/jscript.js"></script>
 
   <style>
     /*Media Queries*/
