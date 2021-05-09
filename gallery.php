@@ -205,8 +205,9 @@
             technology, which would enable the masses to disconnect from the present network without losing access of things
             we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
         </p>
-    </div>
 
+    </div>
+    </div>
     <div class="content">
         <div class="loader-wrapper">
             <div class="loader"></div>
@@ -217,9 +218,6 @@
     </div>
     </div>
 
-
-    <br><br>
-    </div>
 
 
 
