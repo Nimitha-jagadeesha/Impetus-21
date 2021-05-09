@@ -54,27 +54,28 @@
   <div class="ml-5 mr-5 mt-2 mb-2">
     <div class="row">
       <div class="col-12 col-sm-6 text-center">
-        <img class="res-img" src="test1.gif" alt="test1">
+        <!--<img class="res-img" src="test1.gif" alt="test1">-->
 
 
 
 
-        <!--<div id="gameC"></div>-->
+        <div id="gameC"></div>
 
-    <!-- #scoreContainer contains the scores-->
-    <!--<div id="scoreC">
+    <!-- #scoreContainer contains the scores  -->
+    <div id="scoreC">
       <div class="scoreBoard">Food: <span id="pointsEarned">0</span></div>
-    </div>-->
+      <!--<div class="scoreBoard">Blocks: <span id="blocksTravelled">0</span></div>-->
+    </div>
 
     <!-- #onScreenControllers contains the navigation buttons for mobile screens -->
-    <!--<div id="onScreenControllers">
+    <div id="onScreenControllers">
       <button id="leftButton"><i class="fa fa-chevron-left"></i></button>
       <div>
         <button id="upButton"><i class="fa fa-chevron-up"></i></button>
         <button id="downButton"><i class="fa fa-chevron-down"></i></button>
       </div>
       <button id="rightButton"><i class="fa fa-chevron-right"></i></button>
-    </div>-->
+    </div>
 
 
 
