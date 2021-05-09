@@ -175,13 +175,16 @@
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-nav">
-                <a href="./index.php" class="nav-item nav-link ">Home</a>
-                <a href="#" class="nav-item nav-link">About</a>
-                <a href="#" class="nav-item nav-link">Epsilon</a>
-                <a href="./gallery.php" class="nav-item nav-link ">Gallery</a>
-                <a href="./events.php" class="nav-item nav-link ">Events</a>
-                <a href="./covid_awarness.php" class="nav-item nav-link active">Covid Awarness</a>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="./index.php" class="nav-item nav-link ">Home</a>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Epsilon</a>
+                    <a href="./gallery.php" class="nav-item nav-link">Gallery</a>
+                    <a href="./events.php" class="nav-item nav-link">Events</a>
+                    <a href="./covid_awarness.php" class="nav-item nav-link active">Covid Awarness</a>
+
+                </div>
             </div>
         </nav>
     </div>
@@ -204,14 +207,14 @@
         </p>
     </div>
 
-        <div class="content">
-            <div class="loader-wrapper">
-                <div class="loader"></div>
+    <div class="content">
+        <div class="loader-wrapper">
+            <div class="loader"></div>
 
-                <div class="loader-section section-left"></div>
-                <div class="loader-section section-right"></div>
-            </div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
         </div>
+    </div>
     </div>
 
 
