@@ -520,7 +520,7 @@
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 0.7;
 }
 
 .text {
