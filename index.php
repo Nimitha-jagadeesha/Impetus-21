@@ -79,7 +79,7 @@
 
         <div id="Div2" class="col-12 col-sm-6 text-center res-game">
           <!--<img class="res-img" src="test1.gif" alt="test1">-->
-          <p class="text-center" style="color:white;">W A S D</p>
+          <p id="wasd" class="text-center" style="color:white;">W A S D</p>
           <div id="gameC" style="margin:0px;">
           </div>
           <!-- #scoreContainer contains the scores  -->
@@ -375,13 +375,17 @@
 
       /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
     }
-
-    @media (min-width:641px) {
+    @media (max-width:768px){
+      #wasd{
+        display: none;
+      }
+    }
+    @media (min-width:768px) {
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
       }
-
+   
       .responsive-md {
         font-size: 64px;
       }
