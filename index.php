@@ -125,7 +125,7 @@
   </div>
 
   <!--Flagship events-->
-  <div id="part2" class="p-2" style="background-color: #f7d298;">
+  <div id="part2" class="p-2" style="background-color: #ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">ABOUT</h1>
     <p class="text-center mt-2 p-4 font-weight-bold">
@@ -144,7 +144,7 @@
   </div>
 
   <!--Events-->
-  <div id="part3" class="p-2" style="background-color:#ffefd5;">
+  <div id="part3" class="p-2" style="background-color:#ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
@@ -154,7 +154,7 @@
       <div class="col-12 col-sm-6 res-pad-flag container">
         <img src="test.jpg" alt="test" class="img-fluid">
         <div class="overlay">
-            <h1 class="text responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT</h1>
+            <h1 class="text responsive-md font-wight-bold" style="color:white;">FLAGSHIP EVENT</h1>
           </div>
       </div>
     
@@ -165,9 +165,9 @@
   </div>
 
   <!--Sponsors-->
-  <div id="part-4" class="res-pad" style="background-color:ivory">
-    <h1 class="responsive-md text-center mt-2" style="color: #000;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
+  <div id="part-4" class="res-pad" style="background-color:white">
+    <h1 class="responsive-md text-center mt-2" style="color: #fff;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">SPONSORS</h1>
     <div class="row">
       <div class="col-6 col-sm-3 p-2">
         <img src="test.jpg" alt="test" class="img-fluid">
