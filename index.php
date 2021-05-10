@@ -331,7 +331,7 @@
       }
 
       .res-pad {
-        padding: 10px;
+        padding: 6px;
       }
 
       .res-pad-flag {
