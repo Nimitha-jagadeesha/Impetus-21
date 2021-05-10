@@ -152,10 +152,12 @@
     <?php for($i=0;$i<6;$i++)  { ?>
      
       <div class="col-12 col-sm-6 res-pad-flag">
+        <div class="container">
         <img src="test.jpg" alt="test" class="img-fluid">
         <div class="overlay">
             <div class="text">Hello World</div>
           </div>
+        </div>
       </div>
     
     <?php } ?>
