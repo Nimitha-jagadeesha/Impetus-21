@@ -4,6 +4,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
+
+
+
+    :root {
+        /* Base font size */
+        font-size: 10px;
+    }
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        min-height: 100vh;
+        background-color: #fafafa;
+    }
+
+    .container {
+        max-width: 100rem;
+        margin: 0 auto;
+        padding: 0 2rem 2rem;
+    }
+
+    .heading {
+        font-family: "Montserrat", Arial, sans-serif;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: center;
+        padding: 3.5rem 0;
+        color: #1a1a1a;
+    }
+
+    .heading span {
+        display: block;
+    }
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        /* Compensate for excess margin on outer gallery flex items */
+        margin: -1rem -1rem;
+    }
+
+    .gallery-item {
+        /* Minimum width of 24rem and grow to fit available space */
+        flex: 1 0 24rem;
+        /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+        margin: 1rem;
+        box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+    }
+
+    .gallery-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+    }
+
+    .gallery-image:hover {
+        transform: scale(1.15);
+    }
+
+    /*
+
+    The following rule will only run if your browser supports CSS grid.
+
+    Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+    */
+
+    @supports (display: grid) {
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+            grid-gap: 2rem;
+        }
+
+        .gallery,
+        .gallery-item {
+            margin: 0;
+        }
+    }
+
     .loader-wrapper {
         position: fixed;
         top: 0;
@@ -146,24 +234,24 @@
 </script>
 
 <head>
-<meta charset="UTF-8">
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impetus 21</title>
-  <link rel="icon" href="/logo.png" type="image/x-icon">
-  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!--font awesome-->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <!--bootstrap js-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!--google font poppins-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impetus 21</title>
+    <link rel="icon" href="/logo.png" type="image/x-icon">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--font awesome-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--bootstrap js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--google font poppins-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body style="font-family:'Poppins', sans-serif;background-color:black;">
@@ -192,7 +280,7 @@
     <div id="part2" class="p-2" style="background-color: #f7d298;">
         <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Gallery</h1>
-        <p class="text-center mt-2 p-4 font-weight-bold">
+        <!-- <p class="text-center mt-2 p-4 font-weight-bold">
             IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
             been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
             IMPETUS 21.0 is a fest designed for change. The COVID -19 pandemic has disrupted the normal lifestyle and has not
@@ -203,10 +291,50 @@
             back that feeling of nostalgia with retro technology. We aim towards bringing out nostalgic and old school
             technology, which would enable the masses to disconnect from the present network without losing access of things
             we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
-        </p>
+        </p> -->
+        <div class="container">
+
+            <div class="gallery">
+                
+                <!-- <br> -->
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+                <div class="gallery-item">
+                    <img class="gallery-image" src="test.jpg" >
+                </div>
+
+            </div>
+
+        </div>
 
     </div>
-    </div>
+
     <div class="content">
         <div class="loader-wrapper">
             <div class="loader"></div>
