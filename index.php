@@ -132,8 +132,8 @@
       back that feeling of nostalgia with retro technology. We aim towards bringing out nostalgic and old school
       technology, which would enable the masses to disconnect from the present network without losing access of things
       we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
-      <br>
-      <div class="text-center"><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></div>
+  
+      <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a>
     </p>
     
   
