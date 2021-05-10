@@ -180,42 +180,43 @@
   <div id="part3" class="p-2" style="background-color:#ffefd5;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
+    
     <div class="row m-4">
+    <?php for($i=0;$i<6;$i++)  { ?>
+      
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT ONE</h1>
-        <p>Random Text</p>
+      </div>
+    
+    <?php } ?>
+    </div>
+    
+    <!--<div class="row m-4">
+      <div class="col-12 col-sm-6 res-pad-flag">
+        <img src="test.jpg" alt="test" class="img-fluid">
       </div>
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT TWO</h1>
-        <p>Random Text</p>
       </div>
     </div>
     <div class="row m-4">
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT THREE</h1>
-        <p>Random Text</p>
       </div>
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT FOUR</h1>
-        <p>Random Text</p>
       </div>
     </div>
     <div class="row m-4">
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT FIVE</h1>
-        <p>Random Text</p>
       </div>
       <div class="col-12 col-sm-6 res-pad-flag">
         <img src="test.jpg" alt="test" class="img-fluid">
-        <h1 class="responsive-md font-wight-bold" style="color:black;">EVENT SIX</h1>
-        <p>Random Text</p>
       </div>
-    </div>
+    </div>-->
+    
+    
   </div>
 
   <!--Sponsors-->
@@ -244,7 +245,7 @@
 
   <!--Contact us-->
   <h1 class="responsive-md text-center mt-2 p-2" style="color: white;
-      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">ABOUT</h1>
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">CONTACT US</h1>
   <div class="row p-4 m-0">
     <div class="col-12 col-sm-6">
       <h1 class="responsive-tx font-wight-bold" style="color:white;">IMPETUS 21.0</h1>
