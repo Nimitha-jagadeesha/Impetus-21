@@ -60,7 +60,6 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
           <a href="./index.php" class="nav-item nav-link active">Home</a>
-          <a href="#" class="nav-item nav-link">About</a>
           <a href="#" class="nav-item nav-link">Epsilon</a>
           <a href="./gallery.php" class="nav-item nav-link">Gallery</a>
           <a href="./events.php" class="nav-item nav-link">Events</a>
@@ -105,12 +104,11 @@
           </h1>
           <p class="responsive-tx font-wight-bold text-center mb-5 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">Retro Rewind: The Past That Never Was</p>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
-          <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See
-            what's happening</button>
+          <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Schedule</button>
 
           <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
           <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>-->
-          <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>
+          <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>-->
           <!--<a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>-->
         
 
