@@ -154,7 +154,7 @@
     <?php for($i=0;$i<6;$i++)  { ?>
      
       <div class="col-12 col-sm-6 res-pad-flag container">
-        <img src="test.jpg" alt="test" class="img-fluid">
+        <img src="test.jpg" alt="test" class="res-img">
         <div class="overlay">
             <h1 class="text responsive-md font-wight-bold" style="color:white;">FLAGSHIP EVENT</h1>
           </div>
