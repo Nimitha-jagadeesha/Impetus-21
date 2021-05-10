@@ -35,9 +35,14 @@
         if (document.getElementById('Div1').style.display == 'none') {
           document.getElementById('Div1').style.display = 'block';
           document.getElementById('Div2').style.display = 'none';
+          document.getElementById('Button1').value = 'Play Game';
+
+
         } else {
           document.getElementById('Div1').style.display = 'none';
           document.getElementById('Div2').style.display = 'block';
+          document.getElementById('Button1').value = 'Quit';
+
         }
       }
     }
@@ -64,14 +69,8 @@
         </div>
       </div>
     </nav>
-    <!-- <div class="content">
-      <div class="loader-wrapper">
-        <div class="loader"></div>
+    <input id="Button1" type="button" value="Play Game" onclick="switchVisible();"  class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white; margin:auto; display:block"/>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
-      </div>
-    </div> -->
     <div class="text-center">
       <div class="row m-0">
         <div id="Div1" class="col-12 col-md-6">
@@ -108,7 +107,6 @@
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See
             what's happening</button>
-          <input id="Button1" type="button" value="Play Game" onclick="switchVisible();"  class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;"/>
 
           <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>
