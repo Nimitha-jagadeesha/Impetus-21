@@ -158,7 +158,7 @@
   <!--Sponsors-->
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
-    <div class="row">
+    <div class="row m-0">
       <div class="col-6 col-sm-3 p-2">
         <img src="test.jpg" alt="test" class="img-fluid">
       </div>
