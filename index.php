@@ -154,10 +154,8 @@
     </div>
     
     
-  </div>
 
   <!--Sponsors-->
-  <div id="part-4" class="res-pad" style="background-color:white">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
     <div class="row">
