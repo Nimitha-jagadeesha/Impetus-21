@@ -100,26 +100,19 @@
         <div class="col-12 col-sm-6 text-center">
 
           <h1 class="responsive-lg mt-2 text-center" style="color: black;
-                     text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;">IMPETUS 21.0
+                     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">IMPETUS 21.0
           </h1>
           <p class="responsive-tx font-wight-bold text-center mb-5 animate__animated animate__fadeIn animate__delay-40s" style="color:white;">Retro Rewind: The Past That Never Was</p>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Schedule</button>
 
           <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
-          <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>-->
-          <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>-->
-          <!--<a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>-->
-      
-
+       
         </div>
 
       </div>
     </div>
     <div class="ml-4 mr-4 mb-2 mt-2">
-      <!--<h1 class="responsive-md font-wight-bold text-center" style="color:white;">TECHNICAL EXTRAVAGANZA</h1>-->
-      <!--<h1 class="responsive-md text-center mt-2" style="color: black;
-               text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">TECHNICAL EXTRAVAGANZA</h1>-->
     </div>
     <div class="pb-5"></div>
   </div>
@@ -141,11 +134,9 @@
       we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
     </p>
     <div class="text-center"><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></div>
-  </div>
 
   
   <!--Events-->
-  <div id="part3" class="p-2 pt-5" style="background-color:#ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
