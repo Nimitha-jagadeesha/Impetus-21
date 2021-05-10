@@ -5,55 +5,14 @@
 <html lang="en">
 <style>
 
-
-
-    :root {
-        /* Base font size */
-        font-size: 10px;
-    }
-
-    *,
-    *::before,
-    *::after {
-        box-sizing: border-box;
-    }
-
-    body {
-        min-height: 100vh;
-        background-color: #fafafa;
-    }
-
-    .container {
-        max-width: 100rem;
-        margin: 0 auto;
-        padding: 0 2rem 2rem;
-    }
-
-    .heading {
-        font-family: "Montserrat", Arial, sans-serif;
-        font-size: 4rem;
-        font-weight: 500;
-        line-height: 1.5;
-        text-align: center;
-        padding: 3.5rem 0;
-        color: #1a1a1a;
-    }
-
-    .heading span {
-        display: block;
-    }
-
     .gallery {
         display: flex;
         flex-wrap: wrap;
-        /* Compensate for excess margin on outer gallery flex items */
         margin: -1rem -1rem;
     }
 
     .gallery-item {
-        /* Minimum width of 24rem and grow to fit available space */
         flex: 1 0 24rem;
-        /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
         margin: 1rem;
         box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
         overflow: hidden;
@@ -70,14 +29,6 @@
     .gallery-image:hover {
         transform: scale(1.15);
     }
-
-    /*
-
-    The following rule will only run if your browser supports CSS grid.
-
-    Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-    */
 
     @supports (display: grid) {
         .gallery {
@@ -190,7 +141,6 @@
         right: 0;
     }
 
-    /*Finished Loading Styles*/
     .loaded .section-left {
         -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
         transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -280,18 +230,6 @@
     <div id="part2" class="p-2" style="background-color: #f7d298;">
         <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Gallery</h1>
-        <!-- <p class="text-center mt-2 p-4 font-weight-bold">
-            IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
-            been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
-            IMPETUS 21.0 is a fest designed for change. The COVID -19 pandemic has disrupted the normal lifestyle and has not
-            only thrown the academic schedule out of gear, but has also stolen the opportunity to make memories and experience
-            the joy of college fests. In order to help people beat the lockdown blues and also to ensure safety, we are
-            conducting our Annual National-level Technical fest IMPETUS 21.0 in virtual mode for the first time, i.e all the
-            events will be conducted in online mode. As we all like to reminisce about how things were, it's time to bring
-            back that feeling of nostalgia with retro technology. We aim towards bringing out nostalgic and old school
-            technology, which would enable the masses to disconnect from the present network without losing access of things
-            we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
-        </p> -->
         <div class="container">
 
             <div class="gallery">
