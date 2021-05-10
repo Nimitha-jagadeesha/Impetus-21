@@ -145,7 +145,7 @@
 
   
   <!--Events-->
-  <div id="part3" class="p-2 mt-5" style="background-color:#ffffff;">
+  <div id="part3" class="p-2 pt-5" style="background-color:#ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
