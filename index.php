@@ -121,7 +121,7 @@
   <div id="part2" class="p-2" style="background-color: #ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">ABOUT</h1>
-    <p class="text-center mt-2 p-4 font-weight-bold">
+    <p class="text-center mt-2 ml-4 mr-4 pt-4 pl-4 pr-4 font-weight-bold mb-0 pb-0">
       IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
       been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
       IMPETUS 21.0 is a fest designed for change. The COVID -19 pandemic has disrupted the normal lifestyle and has not
@@ -133,7 +133,7 @@
       technology, which would enable the masses to disconnect from the present network without losing access of things
       we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
   
-      <p><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></p>
+      <p class="text-center"><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></p>
     </p>
     
   
