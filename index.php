@@ -3,138 +3,15 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<style>
-  .loader-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1000;
-  }
-
-  .loader-wrapper .loader {
-    display: block;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 100px;
-    height: 100px;
-    margin-top: -50px;
-    margin-left: -50px;
-    border: 3px solid transparent;
-    border-top-color: white;
-    border-radius: 50%;
-    z-index: 1001;
-    -webkit-animation: spin 1.5s infinite linear;
-    animation: spin 1.5s infinite linear;
-  }
-
-  .loader-wrapper .loader:before,
-  .loader-wrapper .loader:after {
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-  }
-
-  .loader-wrapper .loader:before {
-    top: 5px;
-    left: 5px;
-    right: 5px;
-    bottom: 5px;
-    border: 3px solid transparent;
-    border-top-color: white;
-    -webkit-animation: spin 2s infinite linear;
-    animation: spin 2s infinite linear;
-  }
-
-  .loader-wrapper .loader:after {
-    top: 15px;
-    left: 15px;
-    right: 15px;
-    bottom: 15px;
-    border: 3px solid transparent;
-    border-top-color: white;
-    -webkit-animation: spin 1s infinite linear;
-    animation: spin 1s infinite linear;
-  }
-
-  @-webkit-keyframes spin {
-    0% {
-      -webkit-transform: rotate(0);
-      transform: rotate(0);
-    }
-
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-
-  @keyframes spin {
-    0% {
-      -webkit-transform: rotate(0);
-      transform: rotate(0);
-    }
-
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
-
-  /*Section */
-  .loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-
-    background: black;
-    z-index: 1000;
-  }
-
-  .loader-section.section-left {
-    left: 0;
-  }
-
-  .loader-section.section-right {
-    right: 0;
-  }
-
-  /*Finished Loading Styles*/
-  .loaded .section-left {
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-transform: translateX(-100%);
-    transform: translateX(-100%);
-  }
-
-  .loaded .section-right {
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-  }
-
-  .loaded .loader {
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    opacity: 0;
-  }
-
-  .loaded .loader-wrapper {
-    visibility: hidden;
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
-    -webkit-transition: all 0.3s 1s ease-out;
-    transition: all 0.3s 1s ease-out;
-  }
-</style>
 <script>
-  setTimeout(function() {
-    $('body').addClass('loaded');
-  },500);
+  // setTimeout(function() {
+  //   $('body').addClass('loaded');
+  // }, 1000);
+  $(document).ready(function(){
+    setTimeout(function() {
+        $('#loading').fadeOut();
+    }, 3000);
+});
 </script>
 
 <head>
@@ -142,11 +19,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impetus 21</title>
   <link rel="icon" href="/logo.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/all.css" />
-  <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!--font awesome-->
+  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <!--bootstrap js-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/main.css">
   <!--google font poppins-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -155,6 +38,7 @@
 
 <body style="font-family:'Poppins', sans-serif;background-color:black;">
   <div id="part1" class="p-2">
+    <!--style="background-color:black;"-->
     <nav class="navbar navbar-expand-md navbar-dark" style="background-color:black;color:white;">
       <a href="#" class="navbar-brand"></a>
       <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -172,14 +56,14 @@
         </div>
       </div>
     </nav>
-    <div class="content">
+    <!-- <div class="content">
       <div class="loader-wrapper">
         <div class="loader"></div>
 
         <div class="loader-section section-left"></div>
         <div class="loader-section section-right"></div>
       </div>
-    </div>
+    </div> -->
     <div class="text-center">
       <div class="row m-0">
 
