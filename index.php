@@ -110,41 +110,7 @@
           <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>-->
           <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>-->
           <!--<a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>-->
-        
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLongTitle">IMPETUS</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
-                  been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
-                  IMPETUS 21.0 is a fest designed for change. The COVID -19 pandemic has disrupted the normal lifestyle and has not
-                  only thrown the academic schedule out of gear, but has also stolen the opportunity to make memories and experience
-                  the joy of college fests. In order to help people beat the lockdown blues and also to ensure safety, we are
-                  conducting our Annual National-level Technical fest IMPETUS 21.0 in virtual mode for the first time, i.e all the
-                  events will be conducted in online mode. As we all like to reminisce about how things were, it's time to bring
-                  back that feeling of nostalgia with retro technology. We aim towards bringing out nostalgic and old school
-                  technology, which would enable the masses to disconnect from the present network without losing access of things
-                  we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
-                  
-                  <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-dark" data-dismiss="modal">Okay!</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
+      
 
         </div>
 
@@ -159,9 +125,9 @@
   </div>
 
   <!--Flagship events-->
-  <div id="part2" class="p-2" style="background-color: #f7d298;">
-    <h1 class="responsive-md text-center mt-2" style="color: black;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">ABOUT</h1>
+  <div id="part2" class="p-2" style="background-color: #ffffff;">
+    <h1 class="responsive-md text-center mt-2" style="color: white;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">ABOUT</h1>
     <p class="text-center mt-2 p-4 font-weight-bold">
       IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
       been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
@@ -174,55 +140,34 @@
       technology, which would enable the masses to disconnect from the present network without losing access of things
       we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
     </p>
+    <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>
   </div>
 
   <!--Events-->
-  <div id="part3" class="p-2" style="background-color:#ffefd5;">
+  <div id="part3" class="p-2" style="background-color:#ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
     <div class="row m-4">
     <?php for($i=0;$i<6;$i++)  { ?>
-      
-      <div class="col-12 col-sm-6 res-pad-flag">
+     
+      <div class="col-12 col-sm-6 res-pad-flag container">
         <img src="test.jpg" alt="test" class="img-fluid">
+        <div class="overlay">
+            <h1 class="text responsive-md font-wight-bold" style="color:white;">FLAGSHIP EVENT</h1>
+          </div>
       </div>
     
     <?php } ?>
     </div>
     
-    <!--<div class="row m-4">
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-    </div>
-    <div class="row m-4">
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-    </div>
-    <div class="row m-4">
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-      <div class="col-12 col-sm-6 res-pad-flag">
-        <img src="test.jpg" alt="test" class="img-fluid">
-      </div>
-    </div>-->
-    
     
   </div>
 
   <!--Sponsors-->
-  <div id="part-4" class="res-pad" style="background-color:ivory">
-    <h1 class="responsive-md text-center mt-2" style="color: #000;
-            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
+  <div id="part-4" class="res-pad" style="background-color:white">
+    <h1 class="responsive-md text-center mt-2" style="color: #fff;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">SPONSORS</h1>
     <div class="row">
       <div class="col-6 col-sm-3 p-2">
         <img src="test.jpg" alt="test" class="img-fluid">
@@ -513,6 +458,49 @@
       /* hi-res laptops and desktops */
     }
   </style>
+
+
+  <style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000000;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
 </body>
 
 </html>
