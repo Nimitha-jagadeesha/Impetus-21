@@ -4,45 +4,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        margin: -1rem -1rem;
-    }
-
-    .gallery-item {
-        flex: 1 0 24rem;
-        margin: 1rem;
-        box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
-        overflow: hidden;
-    }
-
-    .gallery-image {
-        display: block;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 400ms ease-out;
-    }
-
-    .gallery-image:hover {
-        transform: scale(1.15);
-    }
-
-    @supports (display: grid) {
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
-            grid-gap: 2rem;
-        }
-
-        .gallery,
-        .gallery-item {
-            margin: 0;
-        }
-    }
-
     .loader-wrapper {
         position: fixed;
         top: 0;
@@ -168,14 +129,6 @@
         -webkit-transition: all 0.3s 1s ease-out;
         transition: all 0.3s 1s ease-out;
     }
-
-    /*Content*/
-    .content {
-        margin: 0 auto;
-        padding-bottom: 50px;
-        width: 80%;
-        max-width: 978px;
-    }
 </style>
 <script>
     setTimeout(function() {
@@ -202,6 +155,7 @@
     <!--google font poppins-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body style="font-family:'Poppins', sans-serif;background-color:black;">
@@ -227,49 +181,52 @@
     </div>
 
     <!--Flagship events-->
-    <div id="part2" class="p-2" style="background-color: #f7d298;">
+    <div id="part2" class="p-2" style="background-color: white;">
         <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Gallery</h1>
-        <div class="container">
-
-            <div class="gallery">
-                
-                <!-- <br> -->
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
-                <div class="gallery-item">
-                    <img class="gallery-image" src="test.jpg" >
-                </div>
-
+        <div class="w3-row-padding">
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
             </div>
-
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
+            <div class="w3-container w3-third">
+                <img src="test.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity">
+            </div>
         </div>
+
+        <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+            <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+            <div class="w3-modal-content w3-animate-zoom">
+                <img id="img01" style="width:100%">
+            </div>
+        </div>
+
+        <script>
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+        </script>
 
     </div>
 
@@ -320,38 +277,7 @@
 
 
     </div>
-    <!-- Display the countdown timer in an element -->
-    <script>
-        // Set the date we're counting down to
-        var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
-
-        // Update the count down every 1 second
-        var x = setInterval(function() {
-
-            // Get today's date and time
-            var now = new Date().getTime();
-
-            // Find the distance between now and the count down date
-            var distance = countDownDate - now;
-
-            // Time calculations for days, hours, minutes and seconds
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-            // Display the result in the element with id="demo"
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h " +
-                minutes + "m " + seconds + "s ";
-
-            // If the count down is finished, write some text
-            if (distance < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-        }, 1000);
-    </script>
-    <script src="snakeGame/jscript.js"></script>
+ 
     <style>
         /*Media Queries*/
         @media (min-width:320px) {

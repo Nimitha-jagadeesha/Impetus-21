@@ -265,7 +265,7 @@
     </div>
 
     <!--Flagship events-->
-    <div id="part2" class="p-2" style="background-color: #f7d298;">
+    <div id="part2" class="p-2" style="background-color: white;">
         <h1 class="responsive-md text-center mt-2" style="color: black;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Events</h1>
         <div class="wrapper">
