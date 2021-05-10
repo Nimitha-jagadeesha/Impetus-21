@@ -259,6 +259,13 @@
   <style>
     /*Media Queries*/
     @media (min-width:320px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 8vw;
         padding-right: 8vw;
@@ -292,6 +299,13 @@
     }
 
     @media (min-width:481px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -324,11 +338,19 @@
       /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
     }
     @media (max-width:768px){
+      
       #wasd{
         display: none;
       }
     }
     @media (min-width:768px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -362,6 +384,13 @@
     }
 
     @media (min-width:961px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -395,6 +424,13 @@
     }
 
     @media (min-width:1025px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -428,6 +464,13 @@
     }
 
     @media (min-width:1281px) {
+      .res-img {
+       
+        width:100%;
+        height:auto;
+        
+      }
+      
       .res-game {
         padding-left: 10vw;
         padding-right: 10vw;
