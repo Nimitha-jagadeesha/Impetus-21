@@ -143,10 +143,9 @@
     <div class="text-center"><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></div>
   </div>
 
-  <br><br>
   
   <!--Events-->
-  <div id="part3" class="p-2" style="background-color:#ffffff;">
+  <div id="part3" class="p-2 mt-5" style="background-color:#ffffff;">
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
