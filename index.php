@@ -109,10 +109,10 @@
             what's happening</button>
 
           <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
-          <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>
+          <!--<button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>-->
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>
-          <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>
-
+          <!--<a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>-->
+        
 
           <!-- Modal -->
           <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -135,6 +135,8 @@
                   back that feeling of nostalgia with retro technology. We aim towards bringing out nostalgic and old school
                   technology, which would enable the masses to disconnect from the present network without losing access of things
                   we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
+                  
+                  <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-dark" data-dismiss="modal">Okay!</button>
