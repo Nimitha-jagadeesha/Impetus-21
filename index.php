@@ -23,6 +23,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="snakeGame/main.css">
+  <style>
+    #Div2 {
+      display: none;
+    }
+  </style>
+  <script>
+    function switchVisible() {
+      if (document.getElementById('Div1')) {
+
+        if (document.getElementById('Div1').style.display == 'none') {
+          document.getElementById('Div1').style.display = 'block';
+          document.getElementById('Div2').style.display = 'none';
+        } else {
+          document.getElementById('Div1').style.display = 'none';
+          document.getElementById('Div2').style.display = 'block';
+        }
+      }
+    }
+  </script>
 </head>
 
 <body style="font-family:'Poppins', sans-serif;background-color:black;">
@@ -55,8 +74,11 @@
     </div> -->
     <div class="text-center">
       <div class="row m-0">
+        <div id="Div1" class="col-12 col-md-6">
+          <img class="res-img" src="test1.gif" alt="test1" width="100%" height="100%">
+        </div>
 
-        <div class="col-12 col-sm-6 text-center res-game">
+        <div id="Div2" class="col-12 col-sm-6 text-center res-game">
           <!--<img class="res-img" src="test1.gif" alt="test1">-->
           <p class="text-center" style="color:white;">W A S D</p>
           <div id="gameC" style="margin:0px;">
@@ -77,9 +99,8 @@
           </div>
         </div>
 
-
-
         <div class="col-12 col-sm-6 text-center">
+
           <h1 class="responsive-lg mt-2 text-center" style="color: black;
                      text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;">IMPETUS 21.0
           </h1>
@@ -87,6 +108,8 @@
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Register</button>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">See
             what's happening</button>
+          <input id="Button1" type="button" value="Play Game" onclick="switchVisible();"  class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;"/>
+
           <p id="demo" class="font-weight-bold mt-4 responsive-tx" style="color:white;"></p>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Epsilon</button>
           <button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;" data-toggle="modal" data-target="#exampleModalCenter">About</button>
