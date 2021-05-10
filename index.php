@@ -137,7 +137,7 @@
 
   
   <!--Events-->
-    <h1 class="responsive-md text-center mt-2" style="color: #000;
+    <h1 class="responsive-md text-center mt-2 pt-5" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
     <div class="row m-4">
