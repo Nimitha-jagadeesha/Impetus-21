@@ -60,7 +60,6 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav">
           <a href="./index.php" class="nav-item nav-link active">Home</a>
-          <a href="#" class="nav-item nav-link">About</a>
           <a href="#" class="nav-item nav-link">Epsilon</a>
           <a href="./gallery.php" class="nav-item nav-link">Gallery</a>
           <a href="./events.php" class="nav-item nav-link">Events</a>
