@@ -126,8 +126,8 @@
 
   <!--Flagship events-->
   <div id="part2" class="p-2" style="background-color: #ffffff;">
-    <h1 class="responsive-md text-center mt-2" style="color: black;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">ABOUT</h1>
+    <h1 class="responsive-md text-center mt-2" style="color: white;
+        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">ABOUT</h1>
     <p class="text-center mt-2 p-4 font-weight-bold">
       IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
       been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
