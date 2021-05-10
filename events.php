@@ -131,27 +131,6 @@
         transition: all 0.3s 1s ease-out;
     }
 
-    /*Content*/
-    .content {
-        margin: 0 auto;
-        padding-bottom: 50px;
-        width: 80%;
-        max-width: 978px;
-    }
-
-    * {
-        margin: 0;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-
-    .wrapper {
-        width: 90%;
-        margin: 0 auto;
-        max-width: 80rem;
-    }
-
     .cols {
         display: -webkit-box;
         display: -ms-flexbox;
