@@ -148,20 +148,19 @@
     <h1 class="responsive-md text-center mt-2" style="color: #000;
             text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">FLAGSHIP EVENTS</h1>
     
-    <div class="container">
     <div class="row m-4">
     <?php for($i=0;$i<6;$i++)  { ?>
      
-      <div class="col-12 col-sm-6 res-pad-flag">
+      <div class="col-12 col-sm-6 res-pad-flag container">
         <img src="test.jpg" alt="test" class="img-fluid">
         <div class="overlay">
-            <div class="text">Hello World</div>
+            <h1 class="text responsive-md font-wight-bold" style="color:black;">FLAGSHIP EVENT</h1>
           </div>
       </div>
     
     <?php } ?>
     </div>
-    </div>
+    
     
   </div>
 
@@ -483,7 +482,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #000000;
 }
 
 .container:hover .overlay {
