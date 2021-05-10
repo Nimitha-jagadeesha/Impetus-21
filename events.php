@@ -131,6 +131,27 @@
         transition: all 0.3s 1s ease-out;
     }
 
+    /*Content*/
+    .content {
+        margin: 0 auto;
+        padding-bottom: 50px;
+        width: 80%;
+        max-width: 978px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+        max-width: 80rem;
+    }
+
     .cols {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -155,8 +176,7 @@
         perspective: 1000px;
     }
 
-    .front,
-    .back {
+    .front {
         background-size: cover;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
         border-radius: 10px;
@@ -176,113 +196,6 @@
         font-size: 1.5rem;
     }
 
-    .back {
-        background: #cedce7;
-        background: -webkit-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-        background: -o-linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-        background: linear-gradient(45deg, #cedce7 0%, #596a72 100%);
-    }
-
-    .front:after {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        width: 100%;
-        height: 100%;
-        content: '';
-        display: block;
-        opacity: 0.2;
-        background-color: #000;
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden;
-        border-radius: 10px;
-    }
-
-    .container:hover .front,
-    .container:hover .back {
-        -webkit-transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-        transition: -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-        -o-transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-        transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-        transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1), -webkit-transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
-    }
-
-    .back {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .inner {
-        -webkit-transform: translateY(-50%) translateZ(60px) scale(0.94);
-        transform: translateY(-50%) translateZ(60px) scale(0.94);
-        top: 50%;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        padding: 2rem;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        outline: 1px solid transparent;
-        -webkit-perspective: inherit;
-        perspective: inherit;
-        z-index: 2;
-    }
-
-    .container .back {
-        -webkit-transform: rotateY(180deg);
-        transform: rotateY(180deg);
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-    }
-
-    .container .front {
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-    }
-
-    .container:hover .back {
-        -webkit-transform: rotateY(0deg);
-        transform: rotateY(0deg);
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-    }
-
-    .container:hover .front {
-        -webkit-transform: rotateY(-180deg);
-        transform: rotateY(-180deg);
-        -webkit-transform-style: preserve-3d;
-        transform-style: preserve-3d;
-    }
-
-    .front .inner p {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-        position: relative;
-    }
-
-    .front .inner p:after {
-        content: '';
-        width: 4rem;
-        height: 2px;
-        position: absolute;
-        background: #C6D4DF;
-        display: block;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        bottom: -.75rem;
-    }
-
-    .front .inner span {
-        color: rgba(255, 255, 255, 0.7);
-        font-family: 'Montserrat';
-        font-weight: 300;
-    }
 
     @media screen and (max-width: 64rem) {
         .col {
@@ -310,23 +223,23 @@
 </script>
 
 <head>
-<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impetus 21</title>
-  <link rel="icon" href="/logo.png" type="image/x-icon">
-  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-  <!--font awesome-->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-  <!--bootstrap js-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!--google font poppins-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impetus 21</title>
+    <link rel="icon" href="/logo.png" type="image/x-icon">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--font awesome-->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!--bootstrap js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!--google font poppins-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 
 <body style="font-family:'Poppins', sans-serif;background-color:black;">
@@ -357,102 +270,242 @@
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Events</h1>
         <div class="wrapper">
             <div class="row">
-                <div class="col-12 col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12 col-md-4 mb-2" data-toggle="modal" data-target="#event1">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
-                            <div class="inner">
-
-                            </div>
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-1</h5>
                     </div>
                 </div>
-                <div class="col-12 col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12 col-md-4 mb-2" data-toggle="modal" data-target="#event2">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-2</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event3">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-3</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event4">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-4</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event5">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-5</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event6">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-6</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event7">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
-                        </div>
+                        <h5 class="text-center">Event-7</h5>
                     </div>
                 </div>
-                <div class="col-12  col-md-4 mb-2" ontouchstart="this.classList.toggle('hover');">
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event8">
                     <div class="container">
                         <div class="front" style="background-image: url('test.jpg');">
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias cum repellat velit quae suscipit c.</p>
-                            </div>
+                        <h5 class="text-center">Event-8</h5>
+                    </div>
+                </div>
+                <div class="col-12  col-md-4 mb-2" data-toggle="modal" data-target="#event9">
+                    <div class="container">
+                        <div class="front" style="background-image: url('test.jpg');">
                         </div>
+                        <h5 class="text-center">Event-9</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
+    <div class="modal fade" id="event1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-1</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-2</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-3</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-4</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-5</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-6</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-7</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-8</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="event9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event-9</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Register</button>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="content">
         <div class="loader-wrapper">
