@@ -126,8 +126,8 @@
 
   <!--Flagship events-->
   <div id="part2" class="p-2" style="background-color: #ffffff;">
-    <h1 class="responsive-md text-center mt-2" style="color: white;
-        text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">ABOUT</h1>
+    <h1 class="responsive-md text-center mt-2" style="color: black;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">ABOUT</h1>
     <p class="text-center mt-2 p-4 font-weight-bold">
       IMPETUS is our National level Annual Technical Extravaganza started in the year 2001. For twenty years now, it has
       been serving as a platform for the students to showcase their skills and share their views.This year's iteration,
@@ -140,7 +140,7 @@
       technology, which would enable the masses to disconnect from the present network without losing access of things
       we want. IEEE UVCE presents you IMPETUS 21.0, Retro Rewind: The Past That Never Was
     </p>
-    <a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-light res-pad res-mar rounded-pill" style="background-color: white;">Impetus 20.0</button></a>
+    <div class="text-center"><a href="https://www.youtube.com/watch?v=1Eg2gHnAGw8&t=2s"><button type="button" class="btn btn-dark res-pad res-mar rounded-pill" style="background-color: black;">Impetus 20.0</button></a></div>
   </div>
 
   <!--Events-->
@@ -166,8 +166,8 @@
 
   <!--Sponsors-->
   <div id="part-4" class="res-pad" style="background-color:white">
-    <h1 class="responsive-md text-center mt-2" style="color: #fff;
-            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;">SPONSORS</h1>
+    <h1 class="responsive-md text-center mt-2" style="color: #000;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">SPONSORS</h1>
     <div class="row">
       <div class="col-6 col-sm-3 p-2">
         <img src="test.jpg" alt="test" class="img-fluid">
